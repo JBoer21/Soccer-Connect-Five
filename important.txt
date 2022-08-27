@@ -1,0 +1,3 @@
+{Array.from(Array(attempt), (e, i) => {
+          return <Col>{solution2 && <PlayerCard data = {solution.players[solution2[i]]} />}</Col>   
+            })}
