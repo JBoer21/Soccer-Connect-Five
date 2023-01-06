@@ -140,9 +140,8 @@ const addSolutionAndGame = (solution, attempts) => {
   };
 
   useEffect(() => {
-
     // Fetch solutions from the server
-    fetch("http://localhost:3001/solutions")
+    fetch("/api/json-server/solutions")
       .then((res) => res.json())
       .then((json) => {
         // Select a random solution
